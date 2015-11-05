@@ -1,6 +1,8 @@
 # neworlddeli
 a redesign/reconstruction of a local business' website
 
+##BUILD A RESPONSIVE WEBSITE PROJECT
+
 ####WHAT IS THE WEBPAGE ABOUT?
 
 This webpage is a responsive website project based on **neWorlDeli**, a local business in Austin, TX.
