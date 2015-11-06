@@ -1,0 +1,49 @@
+/* ====== ALL CONTENT CODE ======
+   ============================== */
+
+body {
+    font-family: "Arimo", "Helvetica", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    opacity: 85%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "IM Fell English", "Georgia", serif;
+}
+
+/* ====== NAVBAR ======
+   ==================== */
+.navbar {
+    height: 110px;
+    background: #525e08;
+    border: none;
+}
+
+.navbar-brand img[alt] {
+    width: 20%;
+}
+
+.nav {
+    margin-top: 85px;
+}
+
+.nav a {
+    text-transform: uppercase;
+    font-family: "Arimo", "Helvetica", sans-serif;
+    color: #eaa925 !important;
+    padding: 0 !important;
+    padding-left: 10px !important;
+    opacity: 0.9;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 15px !important;
+    border-left: 5px solid #eaa925;
+}
+
+.nav a:hover {
+    color: #fff !important;
+}
