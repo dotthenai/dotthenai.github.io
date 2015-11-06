@@ -8,7 +8,6 @@ body {
     color: #000;
     opacity: 85%;
     overflow-x: hidden;
-    padding-top: 110px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
    ==================== */
 .navbar {
     height: 110px;
-    background: #525e08;
+    background: none;
     border: none;
 }
 
@@ -28,14 +27,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
-    margin-top: 85px;
+    margin-top: 25px;
+    background-color: #eaa925;
 }
 
 .nav a {
     text-transform: uppercase;
     font-family: "Arimo", "Helvetica", sans-serif;
-    color: #eaa925 !important;
-    padding: 0 !important;
+    color: #fff!important;
+    padding: 5px !important;
     padding-left: 10px !important;
     opacity: 0.9;
     letter-spacing: 0.1em;
@@ -53,8 +53,8 @@ h1, h2, h3, h4, h5, h6 {
    ===================== */
 
 #landing {
-    background-image: url(../img/neon-sign.jpg);
+    background-image: url(../img/landing-food.JPG);
     background-position: 50% 50%;
     background-size: cover;
-    height: 842px;
+    height: 953px;
 }
