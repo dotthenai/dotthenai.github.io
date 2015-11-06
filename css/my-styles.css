@@ -23,10 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    width: 100px;
+    height: 110px;
+    width: 110px;
 }
 
 .navbar-brand img[alt] {
@@ -34,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
-    margin-top: 75px;
+    margin-top: 70px;
     background-color: #eaa925;
 }
 
@@ -49,11 +47,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-left: 10px;
     line-height: 15px !important;
-    border-left: 5px solid #eaa925;
 }
 
 .nav a:hover {
-    color: #fff !important;
+    color: #525e08 !important;
 }
 
 /* ====== LANDING ======
@@ -61,7 +58,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #landing {
     background-image: url(../img/landing-food.JPG);
-    background-position: 50% 50%;
+    background-position: center;
     background-size: cover;
     height: 953px;
+    padding: 400px;
+}
+
+#landing h1 {
+    top: 60%;
+    left: 70%;
+    width: 116px;
+    position: relative;
+    border: 1px solid #525e08;
 }
