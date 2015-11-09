@@ -56,18 +56,33 @@ h1, h2, h3, h4, h5, h6 {
 /* ====== LANDING ======
    ===================== */
 
-#landing {
-    background-image: url(../img/landing-food.JPG);
-    background-position: center;
+/*#landing {
+    background: url(../img/open.jpg);
     background-size: cover;
-    height: 953px;
-    padding: 400px;
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    padding: 253px;
+}*/
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: auto;
 }
 
 #landing h1 {
-    top: 60%;
-    left: 70%;
+    margin-top: 200px;
+    margin-left: 65%;
     width: 116px;
-    position: relative;
-    border: 1px solid #525e08;
 }
+
+#landing button {
+    color: ;
+    background-color: rgba(82, 94, 8, 0.8);
+    border: 1px solid rgba(82, 94, 8, 0.8);
+    margin-left: 65%;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    margin-top: 30px;
