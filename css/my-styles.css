@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ====== NAVBAR ======
    ==================== */
+
 .navbar {
     height: 110px;
     background: none;
@@ -81,3 +82,4 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.5em;
     margin-top: 20px;
 }
+
