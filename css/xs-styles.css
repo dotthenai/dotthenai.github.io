@@ -1,0 +1,17 @@
+/* ====== LANDING ======
+   ===================== */
+
+#landing h1 {
+    margin-top: 470px;
+    margin-left: 1%;
+    width: 100px;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#landing button {
+    
+    background-color: rgba(82, 94, 8, 0.9);
+    border: 1px solid rgba(82, 94, 8, 0.9);
+    margin-left: 1%;
+}

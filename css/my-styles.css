@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav a {
     text-transform: uppercase;
     font-family: "Arimo", "Helvetica", sans-serif;
-    color: #fff!important;
+    color:  #525e08 !important;
     padding: 5px !important;
     padding-left: 10px !important;
     opacity: 0.9;
@@ -50,19 +50,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav a:hover {
-    color: #525e08 !important;
+    color: #fff !important;
 }
 
 /* ====== LANDING ======
    ===================== */
-
-/*#landing {
-    background: url(../img/open.jpg);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat; 
-    padding: 253px;
-}*/
 
 .bg {
     position: absolute;
@@ -72,17 +64,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #landing h1 {
-    margin-top: 200px;
-    margin-left: 65%;
-    width: 116px;
+    margin-top: 280px;
+    margin-left: 60%;
+    width: 100px;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 #landing button {
-    color: ;
+    
     background-color: rgba(82, 94, 8, 0.8);
     border: 1px solid rgba(82, 94, 8, 0.8);
-    margin-left: 65%;
+    margin-left: 64%;
     padding: 10px 30px;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    margin-top: 30px;
+    margin-top: 20px;
+}
