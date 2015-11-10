@@ -18,18 +18,28 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "IM Fell English", "Georgia", serif;
 }
 
+#about, #menu, #events, #visit {
+    margin-top: 35px;
+}
+
+.filler {
+    height: 134px;
+    content: "";
+}
+
 /* ====== NAVBAR ======
    ==================== */
 
 .navbar {
-    height: 110px;
+    top: 34px;
+    height: 100px;
     background: none;
     border: none;
 }
 
 .navbar-brand {
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
 }
 
 .navbar-brand img[alt] {
@@ -37,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
-    margin-top: 70px;
+    margin-top: 15px;
     background-color: #eaa925;
 }
 
@@ -56,6 +66,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a:hover {
     color: #fff !important;
+}
+
+/* ====== INFO ======
+   ================== */
+
+#info {
+    left: 270px;
+    position: absolute;
+    color: #fff;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+#info p, #info ul, #info i {
+    display: inline-block;
+    margin-right: 10px;
+    letter-spacing: 0.51em;
+    margin-bottom: 0;
+}
+
+.fa {
+    color: #fff;
 }
 
 /* ====== LANDING ======
@@ -93,6 +126,18 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     margin-top: 60px;
+}
+
+/* ====== ABOUT ======
+   =================== */
+
+#owners img {
+    width: 100%;
+}
+
+#about article {
+    text-align: justify;
+    border-left: 10px solid #a1ae54;
 }
 
 
