@@ -98,11 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
     
     #landing h1 {
-        font-size: 20px;
+        margin-top: 300px;
+        font-size: 30px;
     }
     
     #landing p {
         font-size: 14px;
+        letter-spacing: 0.15em;
     }
 }
 
