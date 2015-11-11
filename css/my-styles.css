@@ -141,11 +141,26 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu {
     background: rgba(161, 174, 84, 0.7);
-    height: 82.4%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#selection {
+    text-transform: uppercase;
+    font-weight: 800;
+    border-bottom: 10px solid;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 1.35em;
+    letter-spacing: 0.198em;
+}
+
+#food {
+     border-bottom: 10px solid;
 }
 
 .menu {
-    margin-top: 100px;
+    margin-top: 0;
     padding: 0;
 }
 
