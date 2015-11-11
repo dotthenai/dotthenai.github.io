@@ -12,6 +12,7 @@ body {
     color: #000;
     opacity: 85%;
     overflow-x: hidden;
+    color: #525e08;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -143,7 +144,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #about article {
     text-align: justify;
-    border-left: 10px solid #a1ae54;
+    border-left: 10px solid rgb(161, 174, 84);
+    color: #525e08;
+}
+
+/* ====== MENU ======
+   ================== */
+
+#menu {
+    background: rgba(161, 174, 84, 0.7);
 }
 
 
