@@ -40,4 +40,10 @@
     #owners {
         margin-bottom: 40px;
     }
+    
+    #selection {
+    letter-spacing: 0;
+    font-size: 1em;
+    text-align: justify;
+}
 }
