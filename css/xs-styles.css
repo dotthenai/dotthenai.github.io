@@ -41,6 +41,10 @@
         margin-bottom: 40px;
     }
     
+    #menu {
+        padding-top: 0;
+    }
+    
     #selection {
     letter-spacing: 0;
     font-size: 1em;
