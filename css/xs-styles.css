@@ -1,5 +1,14 @@
 @media (max-width: 768px) {
     
+    .navbar {
+    top: 0;
+}
+    
+    .navbar-collapse {
+        box-shadow: none;
+        border: none;
+    }
+    
     .navbar-brand {
     height: 80px;
     width: 80px;
@@ -13,5 +22,9 @@
     #landing p {
         font-size: 14px;
         letter-spacing: 0.085em;
+    }
+    
+    #owners {
+        margin-bottom: 40px;
     }
 }

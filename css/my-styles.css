@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
    ================== */
 
 #info {
-    left: 270px;
+    left: 240px;
     position: absolute;
     color: #fff;
     opacity: 0.8;
@@ -82,9 +82,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #info p, #info ul, #info i {
     display: inline-block;
-    margin-right: 10px;
-    letter-spacing: 0.51em;
     margin-bottom: 0;
+}
+
+#info p, .fa-circle {
+    letter-spacing: 0.51em;
+    margin-right: 15px;
 }
 
 .fa {
