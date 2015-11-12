@@ -72,4 +72,12 @@
     font-size: 1em;
     text-align: justify;
 }
+    
+    /* ====== EVENTS ======
+       ==================== */
+    
+    #monday, #tuesday {
+        width: 100%;
+        margin: 10px 0;
+    }
 }

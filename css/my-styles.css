@@ -168,4 +168,45 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+.menu img:hover {
+    opacity: 0.3;
+}
+
+/* ====== EVENTS ======
+   ==================== */
+
+#events {
+    height: 80%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#events article {
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#monday, #tuesday {
+    background: rgba(234, 169, 37, 0.5);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#monday {
+    margin-right: 5px;
+    width: 272.5px;
+}
+
+#tuesday {
+    margin-left: 5px;
+    width: 272.5px;
+}
+
+#events article h4 {
+    font-family: "Arimo", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline    
+}
+
 
