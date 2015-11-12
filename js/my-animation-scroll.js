@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if(verticalScroll >= 1500) {
+        if(verticalScroll >= 1300) {
 
             $('#food').addClass('fadeInLeft');
             $('#food').removeClass('hide-me');
