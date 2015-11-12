@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 15px !important;
 }
 
-.nav a:hover {
+.nav a:hover, #landing a:hover {
     color: #a1ae54 !important;
 }
 
@@ -111,16 +111,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
     font-weight: 800;
     opacity: 0.9;
+    margin-bottom: 60px;
 }
 
-#landing button {
+#landing a {
     color: #fff;
     background-color: rgba(82, 94, 8, 0.9);
     border: 1px solid rgba(82, 94, 8, 0.9);
-    padding: 10px 30px;
+    padding: 20px 30px;
     text-transform: uppercase;
     letter-spacing: 0.5em;
-    margin-top: 60px;
+    text-decoration: none;
+    
 }
 
 /* ====== ABOUT ======

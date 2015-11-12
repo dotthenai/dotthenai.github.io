@@ -47,10 +47,7 @@
     #landing p {
         font-size: 14px;
         letter-spacing: 0.085em;
-    }
-    
-    #landing button {
-        margin-top: 40px;
+        margin-bottom: 40px;
     }
     
     /* ====== OWNERS ======
