@@ -1,10 +1,5 @@
 @media (min-width: 768px) and (max-width: 991px) {
     
-     #navbar .container {
-        margin-right: 0 !important;
-        margin-left: 0 !important;
-    }
-    
     #social {
     left: 0;
     }
