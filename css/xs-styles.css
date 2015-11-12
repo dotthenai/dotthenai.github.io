@@ -40,7 +40,7 @@
     }
     
     #landing h1 {
-        margin-top: 250px;
+        margin-top: 150px;
         font-size: 30px;
     }
     
@@ -72,11 +72,4 @@
     font-size: 1em;
     text-align: justify;
 }
-}
-
-@media (max-width: 768px) {
-    
-      #landing h1 {
-        margin-top: 150px;
-      }
 }
