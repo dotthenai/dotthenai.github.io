@@ -1,0 +1,15 @@
+@media (min-width: 768px) and (max-width: 991px) and {
+    
+     #navbar .container {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    
+      #landing h1 {
+        font-size: 70px;
+    }
+    
+    #landing p {
+        letter-spacing: 0.14em;
+    }
+}
