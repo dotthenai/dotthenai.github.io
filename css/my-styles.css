@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav a:hover {
-    color: #fff !important;
+    color: #a1ae54 !important;
 }
 
 /* ====== SOCIAL ======
@@ -153,6 +153,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     font-size: 1.35em;
     letter-spacing: 0.198em;
+}
+
+.hide-me {
+    visibility: hidden;
 }
 
 #food {
