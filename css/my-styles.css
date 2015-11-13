@@ -170,8 +170,41 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-.menu img:hover {
-    opacity: 0.3;
+/* ------ overlay ------ */
+
+#reuben {background-image: url(../img/Classic-Reuben-Sandwich.jpg);}
+#salad {background-image: url(../img/salad-960905_1920.jpg);}
+#local {background-image: url(../img/local-beer.jpg);}
+#coffee {background-image: url(../img/coffee.jpg);}
+
+#reuben, #salad, #local, #coffee {
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    height: 195px;
+}
+
+.overlay {
+    background: rgba(161, 174, 84, 0.7);
+    text-align:center;
+    padding: 70px 0 0 0;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;
+    height: 195px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#reuben:hover .overlay, #salad:hover .overlay, #local:hover .overlay, #coffee:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
 }
 
 /* ====== EVENTS ======
