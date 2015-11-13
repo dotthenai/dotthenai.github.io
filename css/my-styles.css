@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     margin-top: 15px;
     background-color: #eaa925;
+    height: 25px;
 }
 
 .nav a {
@@ -68,7 +69,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 15px !important;
 }
 
-.nav a:hover, #landing a:hover {
+.nav a:hover {
+    border-bottom: 4px solid #a1ae54 !important;
+}
+
+#landing a:hover {
     color: #a1ae54 !important;
 }
 
@@ -252,7 +257,28 @@ h1, h2, h3, h4, h5, h6 {
 
 #visit {
     background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/map-455769.jpg);
-    height: 50%;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 50px 0;
 }
+
+#deli h4, #cafe h4 {
+    margin-top: 40px;
+    color: rgba(161, 174, 84, 0.75);
+}
+
+.hours p:first-child {
+    text-transform: uppercase;
+}
+
+.map {
+    height: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 100%;
+}
+
 
 
