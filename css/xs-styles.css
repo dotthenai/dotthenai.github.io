@@ -34,6 +34,10 @@
     
     .nav {height: auto;}
     
+    .nav a:hover {
+    border-bottom: none !important;
+}
+    
     /* ====== LANDING ======
        ===================== */
 

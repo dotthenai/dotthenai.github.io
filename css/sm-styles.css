@@ -8,6 +8,10 @@
         margin-right: 0 !important;
     }
     
+        .nav a:hover {
+    border-bottom: none !important;
+}
+    
     /* ====== SOCIAL ======
        ==================== */
     
