@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "IM Fell English", "Georgia", serif;
 }
 
-#about, #menu, #events, #visit {
+#about, #menu, #events {
     margin-top: 35px;
 }
 
@@ -168,6 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #food {
      border-bottom: 10px solid;
+    -webkit-animation-duration: 3s;
 }
 
 .menu {
@@ -268,6 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 #deli h4, #cafe h4 {
     margin-top: 40px;
     color: rgba(161, 174, 84, 0.75);
+    margin-bottom: 0;
 }
 
 .hours p:first-child {
@@ -279,11 +281,25 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
     overflow: hidden;
     margin-top: 30px;
+    border: 5px solid #525e08;
 }
 
 iframe {
     width: 100%;
 }
+
+/* ------ connect ------ */
+
+#connect .fa-div {
+    width: 65px;
+}
+
+#connect .fa {
+    color: #525e08;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
 
 
 

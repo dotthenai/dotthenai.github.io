@@ -23,8 +23,8 @@
 
     <!-- My Styles -->
     <link href="css/my-styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/xs-styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/sm-styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/xs-styles.css" rel="stylesheet" type="text/css" media="(max-width: 767px)" />
+    <link href="css/sm-styles.css" rel="stylesheet" type="text/css" media="(min-width: 768px) and (max-width: 1024px)" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -241,6 +241,31 @@
     <div id="contacts-link" class="container-fluid filler">
     </div>
     <!----------------------------->
+    
+        <!---------- social links ---------->
+                    <article id="connect" class="container">
+                        <div class="row">
+                        <div class="col-xs-1 col-xs- fa-div col-md-offset-10 hidden-xs">
+                            <i class="fa fa-facebook-square fa-3x"></i>
+                        </div>
+                            <!---------- facebook phone screen size ---------->
+                          <div class="col-xs-1 fa-div col-xs-offset-7 visible-xs">
+                            <i class="fa fa-facebook-square fa-2x"></i>
+                        </div>
+                            
+                         <div class="col-xs-1 fa-div hidden-xs">
+                            <i class="fa fa-instagram fa-3x"></i>
+                        </div>
+                               <!---------- insragram phone screen size ---------->
+                          <div class="col-xs-1 fa-div visible-xs">
+                            <i class="fa fa-instagram fa-2x"></i>
+                        </div>
+                        </div>
+                      
+                        
+                        
+                    </article>
+                    <!---------------------------------->
 
     <!-- CONTACTS AND LOCATIONS START -->
     <!--creating a wrapping div for both contacts and locations, encompassing both info yet keeping them 2 different sections -->
@@ -257,11 +282,11 @@
                     <!---------- deli hours of operations ---------->
                     <h4>HOURS OF OPERATION</h4>
                     <div class="row">
-                        <div class="hours col-sm-6 col-xs-12">
+                        <div class="hours col-xs-6">
                             <p>monday - saturday</p>
                             <p>11:00am - 9:00pm</p>
                         </div>
-                        <div class="hours col-sm-6 col-xs-12">
+                        <div class="hours col-xs-6">
                             <p>sunday</p>
                             <p>11:00am - 5:00pm</p>
                         </div>
@@ -269,12 +294,11 @@
                     <!---------------------------------------------->
                     
                     <!---------- deli embeded google map ---------->
-                    <div class="map hidden-xs">
+                    <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.565424026912!2d-97.73764758487872!3d30.30643098178781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ca7b8d412cd7%3A0x57d428165501444e!2s4101+Guadalupe+St%2C+Austin%2C+TX+78751!5e0!3m2!1sen!2sus!4v1447388957062" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <!--------------------------------------------->
-                   
-
+            
                 </article>
                 <!-- DELI END -->
 
@@ -285,30 +309,33 @@
                        <p>3742 FAR WEST BLVD, STE 101
                         <br>AUSTIN, TEXAS</p>
                     <p>512.340.1404</p>
+                    
                     <!---------- hours of operation ---------->
                     <h4>HOURS OF OPERATION</h4>
                     <div class="row">
-                        <div class="hours col-sm-4 col-xs-12">
+                        <div class="hours col-xs-4">
                             <P>monday - friday</P>
                             <p>11:00am - 9:00pm</p>
                         </div>
-                        <div class="hours col-sm-4 col-xs-6">
+                        <div class="hours col-xs-4">
                             <p>saturday</p>
                             <p>11:00am - 3:00pm</p>
                         </div>
-                        <div class="hours col-sm-4 col-xs-6">
+                        <div class="hours col-xs-4">
                             <p>sunday</p>
                             <p>closed</p>
                         </div>
                     </div>
                     <!---------------------------------------->
+                    
                                      <!---------- deli embeded google map ---------->
-                    <div class="map hidden-xs">
+                    <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27542.511326987234!2d-97.758036!3d30.356238000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb174ca348d5%3A0xf6b747029025de4c!2s3742+Far+West+Blvd+%23101%2C+Austin%2C+TX+78731!5e0!3m2!1sen!2sus!4v1447389513003" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <!--------------------------------------------->
                 </article>
                     <!-- CAFE END -->
+                
             </div>
         </div>
 
