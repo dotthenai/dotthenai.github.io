@@ -63,7 +63,7 @@ h6 {
 .nav {
     margin-top: 15px;
     background-color: #eaa925;
-    height: 25px;
+    height: 40px;
 }
 
 .nav a {
@@ -77,6 +77,8 @@ h6 {
     text-align: center;
     margin-left: 10px;
     line-height: 15px !important;
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
 }
 
 .nav a:hover {
@@ -86,7 +88,6 @@ h6 {
 #landing a:hover {
     color: #a1ae54 !important;
 }
-
 
 /* ====== SOCIAL ======
    ================== */
