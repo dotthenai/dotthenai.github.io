@@ -1,137 +1,152 @@
 /* ====== ALL PAGE CODE ======
    =========================== */
-    
-    #about, #menu, #events, #visit {
+
+#about,
+#menu,
+#events,
+#visit {
     margin-top: 5px;
 }
-    
-      /* ====== FILLER ======
+
+
+/* ====== FILLER ======
        ==================== */
-    
-    .filler {
-        height: 100px;
-    }
-    
-    /* ====== NAVBAR ======
+
+.filler {
+    height: 100px;
+}
+
+
+/* ====== NAVBAR ======
        ==================== */
-    
-    .navbar {
+
+.navbar {
     top: 0;
     height: 100px;
 }
-    
-    .navbar-collapse {
-        box-shadow: none;
-        border: none;
-    }
-    
-    .navbar-brand {
+
+.navbar-collapse {
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-brand {
     height: 100px;
     width: 100px;
 }
-    
-    .nav {height: auto;}
-    
-    .nav a:hover {
+
+.nav {
+    height: auto;
+}
+
+.nav a:hover {
     border-bottom: none !important;
 }
-    
-    /* ====== LANDING ======
+
+
+/* ====== LANDING ======
        ===================== */
 
-    #landing {
-        background-attachment: inherit;
-    }
-    
-    #landing h1 {
-        margin-top: 150px;
-        font-size: 30px;
-    }
-    
-    #landing p {
-        font-size: 14px;
-        letter-spacing: 0.085em;
-        margin-bottom: 40px;
-    }
-    
-    /* ====== OWNERS ======
+#landing {
+    background-attachment: inherit;
+}
+
+#landing h1 {
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+#landing p {
+    font-size: 14px;
+    letter-spacing: 0.085em;
+    margin-bottom: 40px;
+}
+
+
+/* ====== OWNERS ======
        ==================== */
-    
-    #owners {
-        margin-bottom: 40px;
-    }
-    
-    /* ====== MENU ======
+
+#owners {
+    margin-bottom: 40px;
+}
+
+
+/* ====== MENU ======
        ================== */
-    
-    #menu {
-        padding-top: 0;
-    }
-    
-    #selection {
+
+#menu {
+    padding-top: 0;
+}
+
+#selection {
     letter-spacing: 0;
     font-size: 1em;
     text-align: justify;
 }
-    
-    .hide-me {
+
+.hide-me {
     visibility: visible;
 }
 
-#reuben, #salad, #local, #coffee {
+#reuben,
+#salad,
+#local,
+#coffee {
     width: 70%;
     height: 165px;
     margin: 0 auto;
     margin-top: 20px;
 }
-    
-    /* ====== EVENTS ======
+
+
+/* ====== EVENTS ======
        ==================== */
-    
-    #monday, #tuesday, #wed-sat {
-        width: 100%;
-        margin: 10px 0 0 0;
-    }
-    
-    /* ====== VISIT ======
-       =================== */
-    
-    #visit {
-    padding: 0 0 20px 20px;
-    
+
+#monday,
+#tuesday,
+#wed-sat {
+    width: 100%;
+    margin: 10px 0 0 0;
 }
 
-    #deli h1, #cafe h1 {
+
+/* ====== VISIT ======
+       =================== */
+
+#deli h1,
+#cafe h1 {
     margin-top: 40px;
-        font-size: 20px;
+    font-size: 20px;
 }
-    
-    #deli h4, #cafe h4 {
-        font-size: 12px;
-        margin-bottom: 0;
-    }
-    
-    #deli p, #cafe p {
-        font-size: 12px;
-    }
-    
-    .hours p:first-child {
+
+#deli h4,
+#cafe h4 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#deli p,
+#cafe p {
+    font-size: 12px;
+}
+
+.hours p:first-child {
     margin-top: 10px;
-        margin-bottom: 0;
+    margin-bottom: 0;
 }
-    
-    .map {
+
+.map {
     height: 200px;
     margin-top: 20px;
 }
-    
-    #connect .fa-div {
-    width: 40px;
+
+#connect .fa-div {
+    width: auto;
 }
 
 #connect .fa {
     color: #525e08;
     margin-bottom: 10px;
-    margin-left: 60px;
+    margin-left: 15px;
+    display: inline;
 }
-

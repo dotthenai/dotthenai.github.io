@@ -1,49 +1,55 @@
 /* ====== NAVBAR ======
    ==================== */
-    
-    #navbar container {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-    
-        .nav a:hover {
+
+#navbar container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.nav a:hover {
     border-bottom: none !important;
 }
-    
-    /* ====== SOCIAL ======
+
+
+/* ====== SOCIAL ======
        ==================== */
-    
-    #social {
+
+#social {
     left: 0;
-    }
-    
-    /* ====== LANDING =======
+}
+
+
+/* ====== LANDING =======
        ====================== */
-    
-    #landing {
-        background-attachment: inherit;
-    }
-    
-      #landing h1 {
-        font-size: 70px;
-    }
-    
-    #landing p {
-        letter-spacing: 0.14em;
-    }
-    
-    /* ====== SELECTION ======
+
+#landing {
+    background-attachment: inherit;
+}
+
+#landing h1 {
+    font-size: 70px;
+}
+
+#landing p {
+    letter-spacing: 0.14em;
+}
+
+
+/* ====== SELECTION ======
        ======================= */
-    
-    #selection {
-     font-size: 1em;
+
+#selection {
+    font-size: 1em;
     letter-spacing: 0.09em;
-    }
-    
-    /* ====== EVENTS ======
+}
+
+
+/* ====== EVENTS ======
        ==================== */
-    
-    #monday, #tuesday, #wed-sat {
-        width: 100%;
-        margin: 20px 0 0 0;
-    }
+
+#monday,
+#tuesday,
+#wed-sat {
+    width: 100%;
+    margin: 20px 0 0 0;
+}

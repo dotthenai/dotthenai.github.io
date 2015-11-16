@@ -1,7 +1,8 @@
 /* ====== ALL CONTENT CODE ======
    ============================== */
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -15,13 +16,21 @@ body {
     color: #525e08;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "IM Fell English", "Georgia", serif;
 }
 
-#about, #menu, #events {
+#about,
+#menu,
+#events {
     margin-top: 35px;
 }
+
 
 /* ====== FILLER =======
    ===================== */
@@ -30,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 134px;
     content: "";
 }
+
 
 /* ====== NAVBAR ======
    ==================== */
@@ -59,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav a {
     text-transform: uppercase;
     font-family: "Arimo", "Helvetica", sans-serif;
-    color:  #fff !important;
+    color: #fff !important;
     padding: 5px !important;
     padding-left: 10px !important;
     opacity: 0.9;
@@ -77,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #a1ae54 !important;
 }
 
+
 /* ====== SOCIAL ======
    ================== */
 
@@ -91,11 +102,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+
 /* ====== LANDING ======
    ===================== */
 
 #landing {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bread-821503_1920.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bread-821503_1920.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,8 +139,8 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     text-decoration: none;
-    
 }
+
 
 /* ====== ABOUT ======
    =================== */
@@ -142,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 10px solid rgb(161, 174, 84);
     color: #525e08;
 }
+
 
 /* ====== MENU ======
    ================== */
@@ -167,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #food {
-     border-bottom: 10px solid;
+    border-bottom: 10px solid;
     -webkit-animation-duration: 3s;
 }
 
@@ -176,14 +189,29 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+
 /* ------ overlay ------ */
 
-#reuben {background-image: url(../img/Classic-Reuben-Sandwich.jpg);}
-#salad {background-image: url(../img/salad-960905_1920.jpg);}
-#local {background-image: url(../img/local-beer.jpg);}
-#coffee {background-image: url(../img/coffee.jpg);}
+#reuben {
+    background-image: url(../img/Classic-Reuben-Sandwich.jpg);
+}
 
-#reuben, #salad, #local, #coffee {
+#salad {
+    background-image: url(../img/salad-960905_1920.jpg);
+}
+
+#local {
+    background-image: url(../img/local-beer.jpg);
+}
+
+#coffee {
+    background-image: url(../img/coffee.jpg);
+}
+
+#reuben,
+#salad,
+#local,
+#coffee {
     background-position: center center;
     background-size: cover;
     overflow: hidden;
@@ -192,11 +220,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .overlay {
     background: rgba(161, 174, 84, 0.7);
-    text-align:center;
+    text-align: center;
     padding: 70px 0 0 0;
     opacity: 0;
     -webkit-transition: opacity .25s ease;
--moz-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
     height: 195px;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 900;
@@ -208,10 +236,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-#reuben:hover .overlay, #salad:hover .overlay, #local:hover .overlay, #coffee:hover .overlay {
+#reuben:hover .overlay,
+#salad:hover .overlay,
+#local:hover .overlay,
+#coffee:hover .overlay {
     opacity: 1;
     cursor: pointer;
 }
+
 
 /* ====== EVENTS ======
    ==================== */
@@ -225,7 +257,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 15px;
 }
 
-#monday, #tuesday, #wed-sat {
+#monday,
+#tuesday,
+#wed-sat {
     background: rgba(234, 169, 37, 0.5);
     padding: 10px;
     margin-top: 20px;
@@ -241,11 +275,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 272.5px;
 }
 
-
 #events article h4 {
     font-family: "Arimo", "Helvetica", sans-serif;
     text-transform: uppercase;
-    text-decoration: underline;    
+    text-decoration: underline;
 }
 
 #wed-sat a {
@@ -253,11 +286,12 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
 }
 
+
 /* ====== CONTACTS AND LOCATIONS ======
    ==================================== */
 
 #visit {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/map-455769.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/map-455769.jpg);
     color: rgba(255, 255, 255, 0.7);
     padding: 50px 0;
 }
@@ -266,7 +300,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-#deli h4, #cafe h4 {
+#deli h4,
+#cafe h4 {
     margin-top: 40px;
     color: rgba(161, 174, 84, 0.75);
     margin-bottom: 0;
@@ -288,18 +323,16 @@ iframe {
     width: 100%;
 }
 
+
 /* ------ connect ------ */
 
 #connect .fa-div {
-    width: 65px;
+    width: 150px;
+    margin-bottom: 10px;
 }
 
 #connect .fa {
     color: #525e08;
-    margin-bottom: 10px;
-    margin-left: 60px;
+    margin-left: 20px;
+    display: inline;
 }
-
-
-
-
