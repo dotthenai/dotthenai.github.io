@@ -85,10 +85,6 @@ h6 {
     border-bottom: 4px solid #a1ae54 !important;
 }
 
-#landing a:hover {
-    color: #a1ae54 !important;
-}
-
 /* ====== SOCIAL ======
    ================== */
 
@@ -101,6 +97,10 @@ h6 {
 
 .fa {
     color: #fff;
+}
+
+#social .fa:hover, {
+    color: #a1ae54 !important;
 }
 
 
@@ -142,6 +142,9 @@ h6 {
     text-decoration: none;
 }
 
+#landing a:hover {
+    color: #a1ae54 !important;
+}
 
 /* ====== ABOUT ======
    =================== */
@@ -336,4 +339,12 @@ iframe {
     color: #525e08;
     margin-left: 20px;
     display: inline;
+}
+
+#connect .fa:hover {
+    color: #a1ae54 !important;
+}
+
+#connect a {
+    text-decoration: none;
 }
