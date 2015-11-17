@@ -89,10 +89,11 @@ h6 {
    ================== */
 
 #social {
-    left: 240px;
+    width: 100px;
     position: absolute;
     padding-top: 10px;
     padding-bottom: 0;
+    margin-left: 70%;
 }
 
 .fa {
