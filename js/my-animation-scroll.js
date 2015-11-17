@@ -12,20 +12,6 @@ $(document).ready(function () {
                 $('#food').removeClass('hide-me');
             }
 
-            if (verticalScroll >= 2700) {
-
-                $('#food').removeClass('fadeInLeft');
-                $('#food').addClass('hide-me');
-
-            }
-
-            if (verticalScroll <= 1300) {
-
-                $('#food').removeClass('fadeInLeft');
-                $('#food').addClass('hide-me');
-
-            }
-
         });
     }
     if (screen.width <= 767) {
