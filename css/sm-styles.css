@@ -6,13 +6,18 @@
     margin-right: 0 !important;
 }
 
+.navbar-brand {
+    height: 100px;
+    width: 100px;
+}
+
 .nav a:hover {
     border-bottom: none !important;
 }
 
 
 /* ====== SOCIAL ======
-       ==================== */
+   ==================== */
 
 #social {
     left: 0;
@@ -20,7 +25,7 @@
 
 
 /* ====== LANDING =======
-       ====================== */
+   ====================== */
 
 #landing {
     background-attachment: inherit;
@@ -36,7 +41,7 @@
 
 
 /* ====== SELECTION ======
-       ======================= */
+   ======================= */
 
 #selection {
     font-size: 1em;
@@ -45,11 +50,18 @@
 
 
 /* ====== EVENTS ======
-       ==================== */
+   ==================== */
 
 #monday,
 #tuesday,
 #wed-sat {
     width: 100%;
     margin: 20px 0 0 0;
+}
+
+/* ====== CONNECT ======
+   =================== */
+
+#connect .fa {
+    margin-right:0;
 }

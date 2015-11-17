@@ -1,5 +1,7 @@
-if (screen.width >= 768) {
+
     $(document).ready(function () {
+        
+        if (screen.width >= 768) {
 
         $(window).scroll(function () {
 
@@ -11,7 +13,7 @@ if (screen.width >= 768) {
                 $('#food').removeClass('hide-me');
             }
 
-            if (verticalScroll >= 2300) {
+            if (verticalScroll >= 2700) {
 
                 $('#food').removeClass('fadeInLeft');
                 $('#food').addClass('hide-me');
@@ -26,8 +28,9 @@ if (screen.width >= 768) {
             }
 
         });
-    });
-}
+    }
+});
+
 
 
 

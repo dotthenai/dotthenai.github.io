@@ -52,8 +52,8 @@ h6 {
 }
 
 .navbar-brand {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
 }
 
 .navbar-brand img[alt] {
@@ -99,7 +99,7 @@ h6 {
     color: #fff;
 }
 
-#social .fa:hover, {
+#social .fa:hover {
     color: #a1ae54 !important;
 }
 
@@ -290,6 +290,27 @@ h6 {
     font-style: italic;
 }
 
+/* ====== CONNECT ======
+   ===================== */
+
+#connect .fa-div {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#connect .fa {
+    color: #525e08;
+    margin-left: 20px;
+    display: inline;
+}
+
+#connect .fa:hover {
+    color: #a1ae54 !important;
+}
+
+#connect a {
+    text-decoration: none;
+}
 
 /* ====== CONTACTS AND LOCATIONS ======
    ==================================== */
@@ -325,26 +346,4 @@ h6 {
 
 iframe {
     width: 100%;
-}
-
-
-/* ------ connect ------ */
-
-#connect .fa-div {
-    width: 150px;
-    margin-bottom: 10px;
-}
-
-#connect .fa {
-    color: #525e08;
-    margin-left: 20px;
-    display: inline;
-}
-
-#connect .fa:hover {
-    color: #a1ae54 !important;
-}
-
-#connect a {
-    text-decoration: none;
 }
