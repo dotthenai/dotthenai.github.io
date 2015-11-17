@@ -39,6 +39,11 @@
     height: auto;
 }
 
+.nav a {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
 .nav a:hover {
     border-bottom: none !important;
 }

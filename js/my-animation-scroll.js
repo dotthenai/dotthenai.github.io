@@ -1,7 +1,6 @@
+$(document).ready(function () {
 
-    $(document).ready(function () {
-        
-        if (screen.width >= 768) {
+    if (screen.width >= 768) {
 
         $(window).scroll(function () {
 
@@ -29,13 +28,10 @@
 
         });
     }
-});
+    if (screen.width <= 767) {
+        $('.nav a').on('click', function () {
+            $('.navbar-toggle').click() //bootstrap 3.x by Richard
+        });
+    }
 
-
-
-
-
-
-$('.nav a').on('click', function () {
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
 });
